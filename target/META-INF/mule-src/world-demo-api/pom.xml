@@ -26,6 +26,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+					
+					<username>smude2</username>
+					<password>Tibco@2020</password>
+					<muleVersion>4.2.2</muleVersion>
+					<applicationName>maven-cicd</applicationName>
+					<environment>Sandbox</environment>
+					<properties>
+						<key>value</key>
+					</properties>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>

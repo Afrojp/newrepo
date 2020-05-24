@@ -26,6 +26,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+					<uri>https://anypoint.mulesoft.com</uri>
+					<muleVersion>4.2.2</muleVersion>
+					<applicationName>maven-cicd</applicationName>
+					<username>smude2</username>
+					<password>Tibco@2020</password>
+					<workers>1</workers>
+					<workerType>MICRO</workerType>					
+					<environment>Sandbox</environment>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
