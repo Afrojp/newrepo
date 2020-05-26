@@ -27,14 +27,14 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-					<uri>https://anypoint.mulesoft.com</uri>
-					<muleVersion>4.2.2</muleVersion>
-					<applicationName>maven-cicd</applicationName>
-					<username>smude2</username>
-					<password>Tibco@2020</password>
-					<workers>1</workers>
-					<workerType>MICRO</workerType>					
-					<environment>Sandbox</environment>
+						<username>Smude3</username>
+						<password>Apisero@2020</password>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>					
+						<environment>Sandbox</environment>
+						<muleVersion>4.2.2</muleVersion>
+						<applicationName>mavencicd</applicationName>
+									
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
